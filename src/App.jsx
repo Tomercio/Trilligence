@@ -26,7 +26,10 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-4">
       <header className="mb-6 text-center">
-        <h1 className="text-3xl font-bold mb-2">Trilligence</h1>
+        <div className="flex items-center justify-center gap-3 mb-2 w-full">
+          <img src="/trilogo.png" alt="Trilligence Logo" className="h-10 w-10 scale-[2] mt-2 bject-contain" />
+          <h1 className="text-3xl font-bold">Trilligence</h1>
+        </div>
         <h2 className="text-xl font-bold mb-2">Threat Intelligence Directory</h2>
         <p className="text-sm text-gray-600 dark:text-gray-300">
           Browse and discover Threat Intelligence platforms and resources.
