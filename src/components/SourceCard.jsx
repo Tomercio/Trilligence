@@ -86,7 +86,7 @@ export default function SourceCard({ source }) {
             
             {/* Title and Category */}
             <div className="flex-1 min-w-0">
-              <h3 className="text-base font-bold text-gray-900 dark:text-gray-100 truncate group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors">
+              <h3 className="text-base font-bold text-gray-900 dark:text-gray-100 truncate group-hover:text-green-800 dark:group-hover:text-green-500 transition-colors">
                 {source.name}
               </h3>
               {source.category && (
