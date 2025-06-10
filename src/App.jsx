@@ -125,7 +125,7 @@ function App() {
       <div className="min-h-screen bg-transparent text-gray-900 dark:text-gray-100 p-4 relative z-10">
         <header className="mb-6 text-center">
           <div className="flex items-center justify-center gap-3 mb-2 w-full">
-            <img src="/trilogo.png" alt="Trilligence Logo" className="h-10 w-10 scale-[2] mt-4 bject-contain" />
+            <img src="/trilogo.png" alt="Trilligence Logo" className="h-12 w-12 scale-[1.5] mt-4 bject-contain" />
             <h1 className="text-3xl font-bold">Trilligence</h1>
           </div>
           <p className="text-sm text-gray-600 dark:text-gray-300">
