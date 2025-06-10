@@ -12,31 +12,31 @@
 /* Modern Gradient Background Styles */
 body, html {
     /* overflow: hidden; */
-    background-color: #050505 !important;
-    color: #fff !important;
+    background-color: #050505;
+    color: #fff;
 }
 
 .bg-white, .bg-gray-50, .bg-gray-100, .bg-gray-200, .bg-gray-300, .bg-gray-400, .bg-gray-500, .bg-gray-600, .bg-gray-700, .bg-gray-800, .bg-gray-900 {
-    background-color: #181924 !important;
+    background-color: #181924;
 }
 
 .text-gray-900, .text-gray-800, .text-gray-700, .text-gray-600, .text-gray-500, .text-gray-400, .text-gray-300, .text-gray-200, .text-gray-100 {
-    color: #fff !important;
+    color: #fff;
 }
 
 input, select, textarea {
-    background-color: #23243a !important;
-    color: #fff !important;
-    border-color: #23243a !important;
+    background-color: #23243a;
+    color: #fff;
+    border-color: #23243a;
 }
 
 .border-gray-100, .border-gray-200, .border-gray-300, .border-gray-400, .border-gray-500, .border-gray-600, .border-gray-700, .border-gray-800, .border-gray-900 {
-    border-color: #23243a !important;
+    border-color: #23243a;
 }
 
 .dropdown-menu, .dropdown-menu * {
-    background-color: #23243a !important;
-    color: #fff !important;
+    background-color: #23243a;
+    color: #fff;
 }
 
 .gradient-background {
@@ -159,5 +159,9 @@ input, select, textarea {
 html, body {
     overflow-x: hidden;
     width: 100%;
+}
+
+.group:hover h3 {
+    color: #22c55e;
 }
   

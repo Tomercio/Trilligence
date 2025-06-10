@@ -122,13 +122,14 @@ function App() {
         <div className="noise-overlay"></div>
         <div className="particles-container" id="particles-container"></div>
       </div>
-      <div className="min-h-screen bg-transparent text-gray-900 dark:text-gray-100 p-4 relative z-10">
+      <div className="min-h-screen bg-transparent text-white p-4 relative z-10">
         <header className="mb-6 text-center">
           <div className="flex items-center justify-center gap-3 mb-2 w-full">
             <img src="/trilogo.png" alt="Trilligence Logo" className="h-12 w-12 scale-[1.5] mt-4 bject-contain" />
-            <h1 className="text-3xl font-bold">Trilligence</h1>
+            <h1 className="text-3xl font-bold text-white">Trilligence</h1>
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-300">
+          <h2 className="text-xl font-bold mb-2 text-white">Threat Intelligence Directory</h2>
+          <p className="text-sm text-gray-300">
             Browse and discover Threat Intelligence platforms and resources.
           </p>
         </header>
@@ -143,7 +144,7 @@ function App() {
         </div>
 
         {filteredSources.length === 0 ? (
-          <p className="text-center text-gray-500 dark:text-gray-400">No sources found.</p>
+          <p className="text-center text-gray-400">No sources found.</p>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-center">
             {filteredSources.map(src => (
