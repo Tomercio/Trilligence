@@ -128,7 +128,6 @@ function App() {
             <img src="/trilogo.png" alt="Trilligence Logo" className="h-12 w-12 scale-[1.5] mt-4 bject-contain" />
             <h1 className="text-3xl font-bold text-white">Trilligence</h1>
           </div>
-          <h2 className="text-xl font-bold mb-2 text-white">Threat Intelligence Directory</h2>
           <p className="text-sm text-gray-300">
             Browse and discover Threat Intelligence platforms and resources.
           </p>

@@ -67,14 +67,6 @@ const threatIntelligenceSources = [
     requiresApiKey: false
   },
   {
-    name: "Hunter.io",
-    url: "https://hunter.io/",
-    description: "Find and verify email addresses by domain for OSINT/contact discovery",
-    category: "Email Enrichment",
-    apiDoc: "https://hunter.io/api-docs",
-    requiresApiKey: true
-  },
-  {
     name: "Wigle",
     url: "https://wigle.net/",
     description: "Search WiFi networks by SSID/BSSID with geolocation (physical OSINT)",

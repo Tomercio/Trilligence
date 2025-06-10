@@ -67,14 +67,14 @@ export default function SourceCard({ source }) {
   // Badge component
   const Badge = ({ children, className }) => (
     <span className={
-      "inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium " + className
+      "inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium relative z-10 " + className
     }>
       {children}
     </span>
   );
 
   return (
-    <div className="group bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-200/50 dark:border-gray-700/50 hover:border-purple-200 dark:hover:border-green-800/50 hover:-translate-y-1 backdrop-blur-sm">
+    <div className="group bg-gray-800 dark:bg-gray-900 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-700/50 hover:border-green-800/50 hover:-translate-y-1 backdrop-blur-sm">
       <div className="p-4">
         {/* Header Section */}
         <div className="flex items-start justify-between mb-3">
@@ -86,7 +86,7 @@ export default function SourceCard({ source }) {
             
             {/* Title and Category */}
             <div className="flex-1 min-w-0">
-              <h3 className="text-base font-bold text-gray-900 dark:text-gray-100 truncate group-hover:text-green-800 dark:group-hover:text-green-500 transition-colors">
+              <h3 className="text-base font-bold text-gray-100 truncate group-hover:text-green-500 transition-colors">
                 {source.name}
               </h3>
               {source.category && (

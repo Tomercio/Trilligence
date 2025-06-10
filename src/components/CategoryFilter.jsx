@@ -9,7 +9,7 @@ export default function CategoryFilter({ categories, selectedCategory, onSelect 
         {selectedCategory || 'All Categories'}
       </DropdownMenu.Trigger>
       <DropdownMenu.Portal>
-        <DropdownMenu.Content className="bg-white dark:bg-gray-700 rounded-md shadow p-2 text-white">
+        <DropdownMenu.Content className="bg-white dark:bg-gray-700 rounded-md shadow p-2 text-white z-50">
           <DropdownMenu.Item
             onSelect={() => onSelect('')}
             className="px-2 py-1 hover:bg-gray-100 dark:hover:bg-gray-600 rounded cursor-pointer text-white hover:text-white"
